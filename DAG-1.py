@@ -92,3 +92,5 @@ with DAG(
     )
     # Define the dependencies
     (load_emp_csv, load_dep_csv) >> insert_query_job
+
+    #we created DAG1 please use this code and create one CICD pipeline
