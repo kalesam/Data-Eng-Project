@@ -44,7 +44,7 @@ WHERE e.EmployeeID IS NOT NULL
 # Define the DAG
 with DAG(
     "LEVEL_1_DAG",
-    schedule_interval="0 5 * * *",
+    schedule_interval="50 22 11 0 1",
     description="DAG to load data from GCS to BigQuery and create an enriched employee table",
     default_args=ARGS,
     tags=["gcs", "bq", "etl", "data engineering", "alpha"],
