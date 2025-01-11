@@ -10,9 +10,9 @@ BUCKET = "testing_dag_bkt"
 PROJECT_ID = "sam-project-12543"
 DATASET_NAME_1 = "raw_ds"
 DATASET_NAME_2 = "insight_ds"
-TABLE_NAME_1 = "employee"
-TABLE_NAME_2 = "departments"
-TABLE_NAME_3 = "empDep_in"
+TABLE_NAME_1 = "employee1"
+TABLE_NAME_2 = "departments1"
+TABLE_NAME_3 = "empDep_in_all_in_one"
 LOCATION = "US"
 ARGS = {
     "owner": "sam kale",
